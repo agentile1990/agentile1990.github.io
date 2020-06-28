@@ -31,20 +31,50 @@
     </v-app-bar>
 
     <v-main>
-      <v-container class="full-height" flud>
+      <v-container class="full-height" fluid>
         <router-view></router-view>
       </v-container>
     </v-main>
 
-    <v-footer app color="secondary" dark>Social Icons</v-footer>
+    <v-footer app color="secondary" dark>
+      <v-container class="full-height" fluid>
+        <v-row align="center" justify="center">
+          <v-col cols="12" class="text-center">
+            <v-hover
+              v-for="s in socialMedia"
+              v-bind:key="s.name"
+              v-slot:default="{ hover }"
+            >
+              <a :href="s.url" target="_blank">
+                <v-icon
+                  :class="{ 'on-hover': hover }"
+                  style="margin: 0px 10px;"
+                >
+                  {{ s.icon }}
+                </v-icon></a
+              >
+            </v-hover>
+          </v-col>
+        </v-row>
+      </v-container>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
+import SocialMedia from "../data/socialMedia.json";
+
 export default {
   name: "App",
   data: () => ({
+    socialMedia: SocialMedia,
     drawer: false
   })
 };
 </script>
+
+<style lang="scss" scoped>
+.on-hover {
+  color: #00909e !important;
+}
+</style>

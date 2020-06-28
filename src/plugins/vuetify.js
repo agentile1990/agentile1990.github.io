@@ -12,6 +12,16 @@ import { faFileAlt, faHome } from "@fortawesome/free-solid-svg-icons";
 library.add(faFileAlt);
 library.add(faHome);
 
+import {
+  faGithub,
+  faInstagram,
+  faTwitter
+} from "@fortawesome/free-brands-svg-icons";
+
+library.add(faGithub);
+library.add(faInstagram);
+library.add(faTwitter);
+
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 /**
