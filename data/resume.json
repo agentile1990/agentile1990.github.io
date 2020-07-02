@@ -1,0 +1,115 @@
+{
+  "name": "Andrew Gentile",
+  "title": "Software Developer",
+  "contact": {
+    "phone": "(615)-852-8290",
+    "email": "agentile1990@gmail.com"
+  },
+  "sections": [
+    {
+      "name": "Education",
+      "type": "card",
+      "icon": "fas fa-graduation-cap",
+      "items": [
+        {
+          "name": "Middle Tennessee State University",
+          "location": "Murfreesboro, TN",
+          "date": "2009 - 2013",
+          "items": [
+            "B.S. Recording Industry – Audio Production",
+            "Music Minor – Jazz Guitar"
+          ],
+          "details": [
+            "Honors: Dean's List – 3.8/4.0 GPA",
+            "Electives in C++  and Assembly Language"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experience",
+      "type": "card",
+      "icon": "fas fa-briefcase",
+      "items": [
+        {
+          "name": "FreightWise",
+          "location": "Brentwood, TN",
+          "title": "Software Developer",
+          "date": "Feb 2019 - Present",
+          "description": "Full Stack application developer for logistics SaaS company",
+          "details": [
+            "Implement new features on a PostgreSQL, Node, and hybrid Vue / AngularJS software stack",
+            "Develop cross platform mobile app functionality using React Native",
+            "Integrate 3rd party SOAP / REST APIs (8+ LTL carriers) and AWS Lambda / S3 services"
+          ]
+        },
+        {
+          "name": "M Street Entertainment Group",
+          "title": "IT Generalist",
+          "location": "Nashville, TN",
+          "date": "Nov 2016 - Feb 2019",
+          "description": "IT and POS support for premier restaurant group",
+          "details": [
+            "Provide full service IT support and maintenance for fine dining restaurant group",
+            "Design, program, and deploy call center to centralize reservation contacts",
+            "Develop self service / automation tools on Google Cloud / GSuite"
+          ]
+        },
+        {
+          "name": "Aspect Software",
+          "title": "Sr. Customer Support Engineer",
+          "location": "Brentwood, TN",
+          "date": "Jan 2014 - Nov 2016",
+          "description": "Technical support for enterprise contact center solution",
+          "details": [
+            "Provide support for enterprise ACD / IVR contact center software",
+            "Troubleshoot issues with telephony (SIP / TDM), SSL certificates, virtualization and databases",
+            "Draft customer facing technical documentation describing cause and prevention of outages"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Skills",
+      "type": "table",
+      "icon": "fas fa-tools",
+      "items": [
+        {
+          "name": "JavaScript",
+          "framework": "AngularJS",
+          "level": "Intermediate",
+          "experience": "1.5 years"
+        },
+        {
+          "name": "JavaScript",
+          "framework": "Vue",
+          "level": "Intermediate",
+          "experience": "1.5 years"
+        },
+        {
+          "name": "JavaScript",
+          "framework": "React Native",
+          "level": "Intermediate",
+          "experience": "1 year"
+        },
+        {
+          "name": "PHP",
+          "framework": "Laravel",
+          "level": "Beginner",
+          "experience": "2 years"
+        },
+        {
+          "name": "HTML / CSS",
+          "framework": "",
+          "level": "Intermediate",
+          "experience": "4 years"
+        }
+      ]
+    }
+  ],
+  "links": {
+    "word": "https://www.dropbox.com/s/9upbt2e6j5xbjf5/Andrew%20Gentile%20-%20Resume.docx?dl=0",
+    "pdf": "https://www.dropbox.com/s/anga5f9r9tfmyjv/Andrew%20Gentile%20-%20Resume.pdf?dl=0",
+    "web": "https://agentile1990.github.io/resume"
+  }
+}
