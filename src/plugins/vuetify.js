@@ -7,10 +7,29 @@ import Vuetify from "vuetify/lib";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-import { faFileAlt, faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+  faBriefcase,
+  faFileAlt,
+  faFilePdf,
+  faFileWord,
+  faGraduationCap,
+  faHome,
+  faLink,
+  faPlus,
+  faShareAlt,
+  faTools
+} from "@fortawesome/free-solid-svg-icons";
 
+library.add(faBriefcase);
 library.add(faFileAlt);
+library.add(faFilePdf);
+library.add(faFileWord);
+library.add(faGraduationCap);
 library.add(faHome);
+library.add(faLink);
+library.add(faPlus);
+library.add(faShareAlt);
+library.add(faTools);
 
 import {
   faGithub,
