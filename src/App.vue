@@ -36,7 +36,7 @@
       </v-container>
     </v-main>
 
-    <v-footer app color="secondary" dark>
+    <v-footer app color="secondary" dark absolute>
       <v-container class="full-height" fluid>
         <v-row align="center" justify="center">
           <v-col cols="12" class="text-center">
@@ -45,7 +45,7 @@
               v-bind:key="s.name"
               v-slot:default="{ hover }"
             >
-              <a :href="s.url" target="_blank">
+              <a :href="s.url" target="_blank" style="text-decoration: none">
                 <v-icon
                   :class="{ 'on-hover': hover }"
                   style="margin: 0px 10px;"
