@@ -4,8 +4,15 @@
       <v-col cols="12" sm="8" md="9" lg="10">
         <div style="display: flex; align-items: center">
           <span class="mr-2 my-2">Filters:</span>
-          <v-chip-group v-if="!filters.length">
-            <v-chip v-for="filter in filters" :key="filter">
+          <v-chip-group v-if="!activeFilters.length">
+            <v-chip
+              v-for="filter in filters"
+              :key="filter"
+              small
+              :color="getChipColor(filter)"
+              :text-color="getChipTextColor(filter)"
+              @click="addFilter(filter)"
+            >
               {{ filter }}
             </v-chip>
           </v-chip-group>
@@ -143,7 +150,13 @@ export default {
   computed: {
     filters() {
       const filters = [];
-
+      this.filteredProjects.forEach(project => {
+        project.technologies.forEach(technology => {
+          if (!filters.includes(technology)) {
+            filters.push(technology);
+          }
+        });
+      });
       return filters;
     },
     filteredProjects() {
