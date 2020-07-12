@@ -1,0 +1,47 @@
+[
+  {
+    "name": "dotenv-lint",
+    "date": "Jun 2020",
+    "link": "https://www.npmjs.com/package/dotenv-lint",
+    "image": "dotenv-lint.png",
+    "backgroundColor": "#2D2D2D",
+    "technologies": [
+      "JavaScript",
+      "Node"
+    ],
+    "description": "A JavaScript library to identify environment configuration issues in Node.js projects. Compares one or more .env files against a “master” and finds missing or incomplete keys. "
+  },
+  {
+    "name": "tetris-ts",
+    "link": "https://www.npmjs.com/package/tetris-ts",
+    "date": "Mar 2020",
+    "image": "tetris-ts.gif",
+    "backgroundColor": "black",
+    "technologies": [
+      "TypeScript"
+    ],
+    "description": "Tetris clone written in TypeScript. Contains no 3 party libraries or dependencies. First released as an “Easter Egg” for FreightWise"
+  },
+  {
+    "name": "SecureSurvey",
+    "link": "https://mghstudies.com/",
+    "date": "Jul 2015 - Sep 2016",
+    "image": "secure_survey.png",
+    "backgroundColor": "#238FAE",
+    "technologies": [
+      "Laravel",
+      "jQuery"
+    ],
+    "description": "Dosing diary web app for patients in a medication research study conducted by Mass. General Hospital and niversity of Harvard Medical School. Patients answer a series of questions in various formats for review by the research team. Features SMS reminders for patients and a simple reporting / admin dashboard. The app received approval by an Internal Review Board (IRB) and is still in production as of July 2020. "
+  },
+  {
+    "name": "BombShare",
+    "date": "Apr 2015 - Oct 2015",
+    "image": "bombshare.png",
+    "backgroundColor": "#F7941C",
+    "technologies": [
+      "Laravel"
+    ],
+    "description": "Facebook app which allows for simultaneous sharing of posts on multiple users’ timelines. The server is implemented using Laravel and interacts with Facebook’s Graph API over OAuth2."
+  }
+]

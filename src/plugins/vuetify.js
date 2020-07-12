@@ -9,6 +9,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 
 import {
   faBriefcase,
+  faCode,
   faFileAlt,
   faFilePdf,
   faFileWord,
@@ -21,6 +22,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faBriefcase);
+library.add(faCode);
 library.add(faFileAlt);
 library.add(faFilePdf);
 library.add(faFileWord);
