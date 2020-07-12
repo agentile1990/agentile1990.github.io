@@ -34,7 +34,7 @@
     <v-app-bar app color="primary" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <div class="d-flex align-center">
-        <v-toolbar-title>Andrew Gentile</v-toolbar-title>
+        <v-toolbar-title>{{ title }}</v-toolbar-title>
       </div>
       <v-spacer></v-spacer>
     </v-app-bar>
@@ -77,8 +77,23 @@ export default {
   name: "App",
   data: () => ({
     socialMedia: SocialMedia,
-    drawer: false
-  })
+    drawer: false,
+    currentPage: ""
+  }),
+  computed: {
+    title() {
+      if (!this.currentPage || this.currentPage === "Home") {
+        return "Andrew Gentile";
+      }
+
+      return `Andrew Gentile - ${this.currentPage}`;
+    }
+  },
+  watch: {
+    $route: function() {
+      this.currentPage = this.$router.currentRoute.name;
+    }
+  }
 };
 </script>
 
