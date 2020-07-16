@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-container class="full-height" fluid>
     <v-row>
       <v-col cols="12" sm="8" md="9" lg="10">
         <div style="display: flex; align-items: center">
@@ -92,7 +92,7 @@
         </v-hover>
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script>

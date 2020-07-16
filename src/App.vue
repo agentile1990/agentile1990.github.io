@@ -40,9 +40,7 @@
     </v-app-bar>
 
     <v-main>
-      <v-container class="full-height" fluid>
-        <router-view></router-view>
-      </v-container>
+      <router-view></router-view>
     </v-main>
 
     <v-footer app color="secondary" dark absolute>

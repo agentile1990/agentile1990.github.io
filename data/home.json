@@ -1,0 +1,17 @@
+{
+  "features": [
+    {
+      "name": "Web",
+      "icon": "fas fa-globe"
+    },
+    {
+      "name": "Mobile",
+      "icon": "fas fa-mobile"
+    },
+    {
+      "name": "Audio",
+      "icon": "fas fa-volume-up"
+    }
+  ],
+  "about": "My name is Andrew Gentile and I am a full-stack software developer. My computing career began in support, working my way through various roles ranging from help desk to enterprise telephony. I studied audio technology at Middle Tennessee State University, where I took my first programming classes and fell in love with programming. Being highly motivated and a quick study, I transitioned into a full time developer role in 2018. <br /><br /> I come from a musical family and began playing guitar at age five. By 13, I was playing out professionally three nights a week at venues across south Florida. Throughout high school, I played with the jazz band and received a scholarship to study jazz guitar at MTSU. In 2016, I co-founded a recording studio, from which artists went on to work with major independent labels. Music is truly a part of my DNA and I am constantly working to bridge the gap between music and technology. "
+}

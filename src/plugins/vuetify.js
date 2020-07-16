@@ -13,12 +13,16 @@ import {
   faFileAlt,
   faFilePdf,
   faFileWord,
+  faGlobe,
   faGraduationCap,
   faHome,
   faLink,
+  faMobile,
+  faMusic,
   faPlus,
   faShareAlt,
-  faTools
+  faTools,
+  faVolumeUp
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faBriefcase);
@@ -26,12 +30,16 @@ library.add(faCode);
 library.add(faFileAlt);
 library.add(faFilePdf);
 library.add(faFileWord);
+library.add(faGlobe);
 library.add(faGraduationCap);
 library.add(faHome);
 library.add(faLink);
+library.add(faMobile);
+library.add(faMusic);
 library.add(faPlus);
 library.add(faShareAlt);
 library.add(faTools);
+library.add(faVolumeUp);
 
 import {
   faGithub,

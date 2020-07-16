@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <v-container class="full-height" fluid>
     <v-speed-dial fixed right bottom>
       <template v-slot:activator>
         <v-btn fab color="accent">
@@ -148,7 +148,7 @@
         </div>
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script>
