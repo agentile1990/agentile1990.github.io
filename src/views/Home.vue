@@ -52,7 +52,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" md="6">
-        <v-img src="/images/andrew.jpg" contain="true" max-height="500"></v-img>
+        <v-img src="/images/andrew.jpg" contain max-height="500"></v-img>
       </v-col>
     </v-row>
   </div>

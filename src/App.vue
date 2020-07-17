@@ -47,20 +47,36 @@
       <v-container class="full-height" fluid>
         <v-row align="center" justify="center">
           <v-col cols="12" class="text-center">
-            <v-hover
-              v-for="s in socialMedia"
-              v-bind:key="s.name"
-              v-slot:default="{ hover }"
+            <div
+              style="display: flex; justify-content: center; align-content: center"
             >
-              <a :href="s.url" target="_blank" style="text-decoration: none">
-                <v-icon
-                  :class="{ 'on-hover': hover }"
-                  style="margin: 0px 10px;"
-                >
-                  {{ s.icon }}
-                </v-icon></a
+              <v-hover
+                v-for="s in socialMedia"
+                v-bind:key="s.name"
+                v-slot:default="{ hover }"
               >
-            </v-hover>
+                <a :href="s.url" target="_blank" style="text-decoration: none">
+                  <v-icon
+                    :class="{ 'on-hover': hover }"
+                    style="margin: 0px 10px;"
+                  >
+                    {{ s.icon }}
+                  </v-icon></a
+                >
+              </v-hover>
+              <a
+                class="ml-2"
+                style="display: flex; align-items: center"
+                href="https://travis-ci.com/github/agentile1990/agentile1990.github.io"
+                target="_blank"
+              >
+                <v-img
+                  max-width="80"
+                  contain
+                  src="https://travis-ci.com/agentile1990/agentile1990.github.io.svg?branch=source"
+                ></v-img>
+              </a>
+            </div>
           </v-col>
         </v-row>
       </v-container>
