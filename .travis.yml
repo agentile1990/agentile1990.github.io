@@ -15,4 +15,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   on: 
     branch: source
-target_branch: master
+  target_branch: master
