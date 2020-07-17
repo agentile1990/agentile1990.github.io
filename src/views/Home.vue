@@ -1,7 +1,7 @@
 <template>
   <div style="height: 100%">
     <v-parallax src="/images/bkg.jpg" dark height="800">
-      <v-container class="full-height" fluid>
+      <v-container class="full-height" fluid style="padding: 0px;">
         <v-row align="center" justify="center">
           <v-col cols="12">
             <div>
@@ -39,22 +39,24 @@
         </v-row>
       </v-container>
     </v-parallax>
-    <v-row align="center">
-      <v-col cols="12" md="6">
-        <v-card>
-          <v-card-title>
-            <v-icon class="mr-2" large style="color: #00909e"
-              >fas fa-music</v-icon
-            >
-            About Me
-          </v-card-title>
-          <v-card-text class="text-body-1" v-html="home.about"></v-card-text>
-        </v-card>
-      </v-col>
-      <v-col cols="12" md="6">
-        <v-img src="/images/andrew.jpg" contain max-height="500"></v-img>
-      </v-col>
-    </v-row>
+    <v-container class="full-height" fluid>
+      <v-row align="center">
+        <v-col cols="12" md="6">
+          <v-card>
+            <v-card-title>
+              <v-icon class="mr-2" large style="color: #00909e"
+                >fas fa-music</v-icon
+              >
+              About Me
+            </v-card-title>
+            <v-card-text class="text-body-1" v-html="home.about"></v-card-text>
+          </v-card>
+        </v-col>
+        <v-col cols="12" md="6">
+          <v-img src="/images/andrew.jpg" contain max-height="500"></v-img>
+        </v-col>
+      </v-row>
+    </v-container>
   </div>
 </template>
 
