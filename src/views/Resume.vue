@@ -128,7 +128,6 @@
             <thead>
               <tr>
                 <th>Name</th>
-                <th>Framework</th>
                 <th>Level</th>
                 <th>Experience</th>
               </tr>
@@ -139,7 +138,6 @@
                 :key="`${item.name}-${item.framework}`"
               >
                 <td>{{ item.name }}</td>
-                <td>{{ item.framework }}</td>
                 <td>{{ item.level }}</td>
                 <td>{{ item.experience }}</td>
               </tr>

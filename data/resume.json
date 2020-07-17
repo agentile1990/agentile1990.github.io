@@ -75,26 +75,22 @@
       "icon": "fas fa-tools",
       "items": [
         {
-          "name": "JavaScript",
-          "framework": "AngularJS",
+          "name": "AngularJS",
           "level": "Intermediate",
           "experience": "1.5 years"
         },
         {
-          "name": "JavaScript",
-          "framework": "Vue",
+          "name": "Vue",
           "level": "Intermediate",
           "experience": "1.5 years"
         },
         {
-          "name": "JavaScript",
-          "framework": "React Native",
+          "name": "React Native",
           "level": "Intermediate",
           "experience": "1 year"
         },
         {
-          "name": "PHP",
-          "framework": "Laravel",
+          "name": "Laravel",
           "level": "Beginner",
           "experience": "2 years"
         },
