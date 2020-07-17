@@ -1,11 +1,11 @@
 <template>
   <div style="height: 100%">
     <v-parallax src="/images/bkg.jpg" dark height="800">
-      <v-container class="full-height" fluid style="padding: 0px;">
+      <v-container class="full-height" style="padding: 0px;">
         <v-row align="center" justify="center">
           <v-col cols="12">
             <div>
-              <div class="text-h3 text-uppercase text-center">
+              <div class="text-h3 text-uppercase text-center title-text">
                 Hello, I'm Andrew
               </div>
               <div style="display: flex; justify-content: center">
@@ -75,5 +75,15 @@ export default {
 .title-box {
   padding: 3rem;
   border: 10px solid #dae1e7;
+}
+
+.title-text {
+  font-size: 2.25rem !important;
+}
+
+@media screen and (min-width: 600px) {
+  .title-text {
+    font-size: 3rem !important;
+  }
 }
 </style>
