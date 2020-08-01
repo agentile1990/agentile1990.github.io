@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Introduction to Computer Science and Programming in Python",
+    "institution": "MIT Open Courseware",
+    "date": "Spring 2020",
+    "subject": "Python",
+    "description": "6.0001 Introduction to Computer Science and Programming in Python aims to provide students with an understanding of the role computation can play in solving problems and to help students, regardless of their major, feel justifiably confident of their ability to write small programs that allow them to accomplish useful goals."
+  },
+  {
+    "name": "Introduction to Assembly Language",
+    "institution": "Middle Tennessee State University",
+    "date": "Spring 2013",
+    "subject": "x86 Assembly",
+    "description": "Computer architecture and assembly language. Major emphasis on addressing techniques, macros, and program segmentation and linkage."
+  },
+  {
+    "name": "Computer Science II",
+    "institution": "Middle Tennessee State University",
+    "date": "Fall 2012",
+    "subject": "C++",
+    "description": "A continuation of CSCI 1170. Topics include introductory object-oriented programming techniques, software engineering principles, records, recursion, pointers, stacks and queues, linked lists, trees, and sorting and searching. Three lectures and one two-hour laboratory."
+  },
+  {
+    "name": "Computer Science I",
+    "institution": "Middle Tennessee State University",
+    "date": "Spring 2012",
+    "subject": "C++",
+    "description": "The first of a two-semester sequence using a high-level language; language constructs and simple data structures such as arrays and strings. Emphasis on problem solving using the language and principles of structured software development. Three lectures and one two-hour laboratory."
+  }
+]
