@@ -124,25 +124,14 @@
         </div>
 
         <div v-if="section.type === 'table'">
-          <v-simple-table class="elevation-2" dense>
-            <thead>
-              <tr>
-                <th>Name</th>
-                <th>Level</th>
-                <th>Experience</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                v-for="item in section.items"
-                :key="`${item.name}-${item.framework}`"
-              >
-                <td>{{ item.name }}</td>
-                <td>{{ item.level }}</td>
-                <td>{{ item.experience }}</td>
-              </tr>
-            </tbody>
-          </v-simple-table>
+          <v-data-table
+            :headers="section.data.headers"
+            :items="section.data.skills"
+            class="elevation-2"
+            :dense="true"
+            hide-default-footer
+          >
+          </v-data-table>
         </div>
       </v-col>
     </v-row>
