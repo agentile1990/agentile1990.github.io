@@ -73,34 +73,55 @@
       "name": "Skills",
       "type": "table",
       "icon": "fas fa-tools",
-      "items": [
-        {
-          "name": "AngularJS",
-          "level": "Intermediate",
-          "experience": "1.5 years"
-        },
-        {
-          "name": "Vue",
-          "level": "Intermediate",
-          "experience": "1.5 years"
-        },
-        {
-          "name": "React Native",
-          "level": "Intermediate",
-          "experience": "1 year"
-        },
-        {
-          "name": "Laravel",
-          "level": "Beginner",
-          "experience": "2 years"
-        },
-        {
-          "name": "HTML / CSS",
-          "framework": "",
-          "level": "Intermediate",
-          "experience": "4 years"
-        }
-      ]
+      "data": {
+        "headers": [
+          {"text": "Name", "value": "name"},
+          {"text": "Level", "value": "level"},
+          {"text": "Experience (yrs)", "value": "experience"}
+        ],
+        "skills": [
+          {
+            "name": "AngularJS",
+            "level": "Intermediate",
+            "experience": 1
+          },
+          {
+            "name": "Vue",
+            "level": "Intermediate",
+            "experience": 1
+          },
+          {
+            "name": "React Native",
+            "level": "Intermediate",
+            "experience": "< 1"
+          },
+          {
+            "name": "Node.js",
+            "level": "Intermediate",
+            "experience": 1
+          },
+          {
+            "name": "Express",
+            "level": "Intermediate",
+            "experience": 1
+          },
+          {
+            "name": "Laravel",
+            "level": "Beginner",
+            "experience": 2
+          },
+          {
+            "name": "HTML / CSS",
+            "level": "Intermediate",
+            "experience": 4
+          },
+          {
+            "name": "PostgreSQL",
+            "level": "Beginner",
+            "experience": 1
+          }
+        ]
+      }
     }
   ],
   "links": {
