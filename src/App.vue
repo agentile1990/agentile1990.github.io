@@ -28,6 +28,15 @@
             <v-list-item-title>Projects</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+
+        <v-list-item link to="/courses">
+          <v-list-item-action>
+            <v-icon>fas fa-graduation-cap</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>Courses</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
