@@ -12,7 +12,59 @@
           <v-card-subtitle>
             {{ course.institution }} - <em>{{ course.date }}</em>
           </v-card-subtitle>
-          <v-card-text>{{ course.description }}</v-card-text>
+          <v-card-text>
+            {{ course.description }}
+            <div v-if="course.repos">
+              <div
+                v-for="repo in course.repos"
+                :key="repo.name"
+                class="mt-2 mb-2"
+              >
+                <v-btn
+                  color="secondary"
+                  x-small
+                  width="160"
+                  style="justify-content: flex-start"
+                  @click="openLink(repo.url)"
+                >
+                  <v-icon x-small class="mr-2">fab fa-github</v-icon>
+                  {{ repo.name }}
+                </v-btn>
+              </div>
+            </div>
+            <div v-if="course.certificate">
+              <v-dialog v-model="dialog" max-width="750">
+                <template v-slot:activator="{ on, attrs }">
+                  <v-btn
+                    x-small
+                    color="secondary"
+                    width="160"
+                    style="justify-content: flex-start"
+                    v-bind="attrs"
+                    v-on="on"
+                  >
+                    <v-icon x-small class="mr-2">fas fa-graduation-cap</v-icon>
+                    View Certificate
+                  </v-btn>
+                </template>
+                <v-card>
+                  <v-card-text>
+                    <v-img
+                      :src="`/images/certificates/${course.certificate}`"
+                      contain
+                    ></v-img>
+                  </v-card-text>
+                  <v-divider />
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+                    <v-btn color="primary" text @click="dialog = false">
+                      Close
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-dialog>
+            </div>
+          </v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -25,8 +77,13 @@ import Courses from "../../data/courses.json";
 export default {
   name: "Courses",
   data: () => ({
-    courses: Courses
+    courses: Courses,
+    dialog: false
   }),
-  methods: {}
+  methods: {
+    openLink: function(url) {
+      window.open(url, "_blank");
+    }
+  }
 };
 </script>
