@@ -4,7 +4,7 @@
       <v-col cols="12" sm="9" md="8" lg="7">
         <v-card class="mt-5" v-for="course in courses" :key="course.name">
           <v-card-title>
-            <div style="flex: 1">{{ course.name }}</div>
+            <div style="flex: 1; word-break: normal">{{ course.name }}</div>
             <v-chip class="ml-2" small color="secondary">
               {{ course.subject }}
             </v-chip>
