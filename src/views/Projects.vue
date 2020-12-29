@@ -4,7 +4,7 @@
       <v-col cols="12" sm="8" md="9" lg="10">
         <div style="display: flex; align-items: center">
           <span class="mr-2 my-2">Filters:</span>
-          <v-chip-group v-if="!activeFilters.length">
+          <v-chip-group v-if="!activeFilters.length" column>
             <v-chip
               v-for="filter in filters"
               :key="filter"
@@ -65,7 +65,7 @@
               :style="{ 'background-color': project.backgroundColor }"
             ></v-img>
             <v-card-title>
-              <div style="flex: 1">{{ project.name }}</div>
+              <div style="flex: 1; word-break: normal">{{ project.name }}</div>
               <v-chip
                 class="ml-2"
                 v-for="technology in project.technologies"
@@ -107,6 +107,8 @@ export default {
   methods: {
     getChipColor: function(value) {
       switch ((value || "").toLowerCase()) {
+        case "aws":
+          return "#f8991d";
         case "javascript":
           return "#f7df1e";
         case "jquery":
@@ -117,6 +119,8 @@ export default {
           return "green";
         case "typescript":
           return "#007ACC";
+        case "vue":
+          return "#4FC08D";
         default:
           return "secondary";
       }
@@ -157,7 +161,7 @@ export default {
           }
         });
       });
-      return filters;
+      return filters.sort();
     },
     filteredProjects() {
       let projects = this.projects.filter(project => {
