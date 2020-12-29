@@ -1,5 +1,18 @@
 [
   {
+    "name": "Kimbell Cleaning & Maintenance",
+    "date": "Dec 2020",
+    "link": "https://kimbellcleaning.com",
+    "image": "kimbell.png",
+    "backgroundColor": "#FFFFFF",
+    "technologies": [
+      "Vue",
+      "JavaScript",
+      "AWS"
+    ],
+    "description": "Website for a local cleaning / maintenance company. Serverless architecture using AWS Amplify. Contact form implemented with AWS Lambda and Google ReCaptcha."
+  },
+  {
     "name": "dotenv-lint",
     "date": "Jun 2020",
     "link": "https://www.npmjs.com/package/dotenv-lint",
