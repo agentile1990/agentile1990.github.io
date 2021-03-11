@@ -20,8 +20,10 @@ import {
   faMobile,
   faMusic,
   faPlus,
+  faQuoteLeft,
   faShareAlt,
   faTools,
+  faUser,
   faVolumeUp
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -37,8 +39,10 @@ library.add(faLink);
 library.add(faMobile);
 library.add(faMusic);
 library.add(faPlus);
+library.add(faQuoteLeft);
 library.add(faShareAlt);
 library.add(faTools);
+library.add(faUser);
 library.add(faVolumeUp);
 
 import {
