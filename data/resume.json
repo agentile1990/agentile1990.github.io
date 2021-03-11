@@ -83,27 +83,27 @@
           {
             "name": "AngularJS",
             "level": "Intermediate",
-            "experience": 1
+            "experience": 2
           },
           {
             "name": "Vue",
             "level": "Intermediate",
-            "experience": 1
+            "experience": 2
           },
           {
             "name": "React Native",
             "level": "Intermediate",
-            "experience": "< 1"
+            "experience": 2
           },
           {
             "name": "Node.js",
             "level": "Intermediate",
-            "experience": 1
+            "experience": 2
           },
           {
             "name": "Express",
             "level": "Intermediate",
-            "experience": 1
+            "experience": 2
           },
           {
             "name": "Laravel",
@@ -113,12 +113,12 @@
           {
             "name": "HTML / CSS",
             "level": "Intermediate",
-            "experience": 4
+            "experience": 5
           },
           {
             "name": "PostgreSQL",
-            "level": "Beginner",
-            "experience": 1
+            "level": "Intermediate",
+            "experience": 2
           }
         ]
       }
