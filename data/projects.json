@@ -33,7 +33,7 @@
     "technologies": [
       "TypeScript"
     ],
-    "description": "Tetris clone written in TypeScript. Contains no 3 party libraries or dependencies. First released as an “Easter Egg” for FreightWise"
+    "description": "Tetris clone written in TypeScript. Contains no 3rd party libraries or dependencies. First released as an “Easter Egg” for FreightWise"
   },
   {
     "name": "SecureSurvey",
