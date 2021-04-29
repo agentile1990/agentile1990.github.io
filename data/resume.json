@@ -34,11 +34,12 @@
         {
           "name": "FreightWise",
           "location": "Brentwood, TN",
-          "title": "Software Developer",
+          "title": "Software Engineer (Mid-Level)",
           "date": "Feb 2019 - Present",
           "description": "Full Stack application developer for logistics SaaS company",
           "details": [
-            "Implement new features on a PostgreSQL, Node, and hybrid Vue / AngularJS software stack",
+            "Full-stack development for a JavaScript SaaS web application",
+            "Develop micro-service for file and image conversions",
             "Develop cross platform mobile app functionality using React Native",
             "Integrate 3rd party SOAP / REST APIs (8+ LTL carriers) and AWS Lambda / S3 services"
           ]
@@ -92,8 +93,8 @@
           },
           {
             "name": "React Native",
-            "level": "Intermediate",
-            "experience": 2
+            "level": "Beginner",
+            "experience": 1
           },
           {
             "name": "Node.js",
@@ -106,18 +107,13 @@
             "experience": 2
           },
           {
-            "name": "Laravel",
-            "level": "Beginner",
+            "name": "PostgreSQL",
+            "level": "Intermediate",
             "experience": 2
           },
           {
-            "name": "HTML / CSS",
-            "level": "Intermediate",
-            "experience": 5
-          },
-          {
-            "name": "PostgreSQL",
-            "level": "Intermediate",
+            "name": "Laravel",
+            "level": "Beginner",
             "experience": 2
           }
         ]

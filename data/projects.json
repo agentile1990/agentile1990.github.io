@@ -45,7 +45,7 @@
       "Laravel",
       "jQuery"
     ],
-    "description": "Dosing diary web app for patients in a medication research study conducted by Mass. General Hospital and niversity of Harvard Medical School. Patients answer a series of questions in various formats for review by the research team. Features SMS reminders for patients and a simple reporting / admin dashboard. The app received approval by an Internal Review Board (IRB) and is still in production as of July 2020. "
+    "description": "Dosing diary web app for patients in a medication research study conducted by Mass. General Hospital and Harvard Medical School. Patients answer a series of questions in various formats for review by the research team. Features SMS reminders for patients and a simple reporting / admin dashboard. The app received approval by an Internal Review Board (IRB) and is still in production as of July 2020. "
   },
   {
     "name": "BombShare",
