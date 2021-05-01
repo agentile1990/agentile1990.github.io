@@ -32,7 +32,7 @@ const routes = [
     path: "/testimonials",
     name: "Testimonials",
     component: () =>
-      import(/* webpackChunkName: "testimonials*/ "../views/Testimonials.vue")
+      import(/* webpackChunkName: "testimonials" */ "../views/Testimonials.vue")
   }
 ];
 
