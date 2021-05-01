@@ -1,5 +1,19 @@
 [
   {
+    "name": "Modern React with Redux [2020 Update]",
+    "institution": "Udemy",
+    "date": "Spring 2021",
+    "subject": "React",
+    "description": "A comprehensive look at React concepts: JSX, Components (Class / Functional), Hooks, Router, Redux / Context, and Forms",
+    "repos": [
+      {
+        "name": "udemy-react",
+        "url": "https://github.com/agentile1990/udemy-react"
+      }
+    ],
+    "certificate": "UC-d77d5397-331a-4cd2-a806-169d808decb6.jpeg"
+  },
+  {
     "name": "Learn Advanced C++ Programming",
     "institution": "Udemy", 
     "date": "Fall 2020",
